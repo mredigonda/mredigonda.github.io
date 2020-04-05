@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lora", Georgia, sans-serif;
+  text-align: justify;
+}
+
+p {
+  font-size: 20px;
+  padding: 14px 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.15em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+hr {
+  margin: 14px 0;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #ff1a5e;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+li {
+  font-size: 18px;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+.main-menu {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 24px;
+}
+
+.main-menu li {
+  float: right;
+}
+
+.main-menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+.main-menu li a:hover {
+  background-color: #111;
+}
+
+.main-content {
+  max-width: 45em;
+  margin: 0 auto;
+}
+
+.profile-picture {
+  float: right;
+}
+
+.profile-picture img {
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+
+.blog-menu {
+  font-size: 24px;
+}
+
+.blog-menu li {
+  padding: 10px;
+}
+
+.blog-menu li a {
+  text-decoration: none;
+}
+
+.blog-post-date {
+  float: right;
+  color: #555;
+}
