@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome! on Maxi Redigonda&#39;s Website</title>
-    <link>http://mredigonda.github.io/</link>
+    <link>https://mredigonda.github.io/</link>
     <description>Recent content in Welcome! on Maxi Redigonda&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Apr 2020 16:46:41 -0300</lastBuildDate>
     
-	<atom:link href="http://mredigonda.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mredigonda.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Brazilian ICPC Summer School 2018</title>
-      <link>http://mredigonda.github.io/blog/brazilian-icpc-summer-school/</link>
+      <link>https://mredigonda.github.io/blog/brazilian-icpc-summer-school/</link>
       <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mredigonda.github.io/blog/brazilian-icpc-summer-school/</guid>
+      <guid>https://mredigonda.github.io/blog/brazilian-icpc-summer-school/</guid>
       <description>&lt;p&gt;This is a two weeks long event, with theoretic lectures from outstanding instructors in the mornings, and competitive programming contests in the afternoons. It was held from January 22nd to February 3rd in the city of Campinas, São Paulo.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Diary</title>
-      <link>http://mredigonda.github.io/diary/</link>
+      <link>https://mredigonda.github.io/diary/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://mredigonda.github.io/diary/</guid>
+      <guid>https://mredigonda.github.io/diary/</guid>
       <description>2020 March Week 13 (Mar 23rd - Mar 29th)  🎥 Mocked interviews with friends 💪 Created simple but effective spreadsheet to keep track of physical training 🎓 Taught 3 hours of Competitive Programming to my trainee ✅ Started tracking habits and following them successfully  Week 12 (Mar 16th - Mar 22th)  😷 Compulsory Quarantine for the whole Argentina because of COVID19 😂 Discovered TikTok 🛩 Loaded data of my flights into FlightRadar24 📑 Gathered information on how to train for interviews 🏋 Started exercising   2019 April Week 14 (Apr 1st - Apr 7th)  🇵🇹 ICPC World Finals in Porto, Portugal (we beat 50% of the teams!</description>
     </item>
     
