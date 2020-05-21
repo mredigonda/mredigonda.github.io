@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta name="generator" content="Hugo 0.69.0" />
+	<meta name="generator" content="Hugo 0.70.0" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="preload" type="text/css" href="https://mredigonda.github.io/css/main.css" as="style" />
@@ -57,11 +57,12 @@ if (!doNotTrack) {
         text-align: left;
       }
     </style>
-    <figure class="profile-picture">
-    <img src="/img/profile.jpg"
-         alt="Maxi Redigonda" width="260px"/> 
-</figure>
-
+    <picture class="profile-picture">
+      <source media="(min-width:720px)" srcset="img/profile-2x.jpg">
+      <source media="(min-width:450px)" srcset="img/profile-1x.jpg">
+      <img src="img/profile-1x.jpg" alt="Maxi Redigonda's picture">
+    </picture>
+    <!-- raw HTML omitted -->
 <h2 id="about-me">About me</h2>
 <p>My name is Maxi Redigonda, I study Computer Science in 🇦🇷 Argentina.</p>
 <p>I used to participate in programming competitions like the <a href="https://stats.ioinformatics.org/people/5519">IOI</a>, and the <a href="https://icpc.baylor.edu/ICPCID/IAAD4CXB8F3G">ICPC</a>.</p>
