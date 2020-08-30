@@ -4,7 +4,7 @@
   font-family: "Lora", Georgia, sans-serif;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 720px) {
   * {
     text-align: justify;
   }
@@ -95,6 +95,7 @@ ul {
 }
 
 .main-content {
+  padding: 10px;
   max-width: 45em;
   margin: 0 auto;
 }
