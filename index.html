@@ -9,6 +9,7 @@
   <link rel="shortcut icon" type="image/x-icon" href="https://mredigonda.github.io/img/favicon.png">
   <link rel="preload" href="https://mredigonda.github.io/fonts/OpenSansCondensed-Bold.woff2" type="font/woff2" crossorigin="anonymous" as="font">
   <link rel="preload" href="https://mredigonda.github.io/fonts/Lora-Regular.woff2" type="font/woff2" crossorigin="anonymous" as="font">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" rel="stylesheet" />
   <title>
   Maxi Redigonda's Blog
 </title>
@@ -28,7 +29,8 @@ if (!doNotTrack) {
 
 </head>
 <body>
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-core.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
   <style type="text/css">
     @font-face {
         font-family: "Open Sans Condensed";
@@ -59,11 +61,10 @@ if (!doNotTrack) {
         text-align: left;
       }
     </style>
-    <picture class="profile-picture">
-      <source media="(min-width:720px)" srcset="img/profile-2x.jpg">
-      <source media="(min-width:450px)" srcset="img/profile-1x.jpg">
-      <img src="img/profile-1x.jpg" alt="Maxi Redigonda's picture">
-    </picture>
+    <img class="profile-picture"
+          width="400px"
+          src="img/profile.jpg"
+          alt="Maxi Redigonda's profile picture, he looks handsome.">
     <!-- raw HTML omitted -->
 <h2 id="about-me">About me</h2>
 <p>My name is Maxi Redigonda, I study Computer Science in 🇦🇷 Argentina.</p>
