@@ -4,11 +4,12 @@
   font-family: "Lora", Georgia, sans-serif;
 }
 
+/* Previously I had all my text justified, but I read it make texts harder to read, and it doesn't even look better.
 @media only screen and (min-width: 720px) {
   * {
     text-align: justify;
   }
-}
+} */
 
 p {
   font-size: 20px;

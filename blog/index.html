@@ -28,7 +28,14 @@ if (!doNotTrack) {
 
 </head>
 <body>
-  <style>html{visibility: hidden;opacity:0;}</style> 
+  <script>
+     
+    document.getElementsByTagName('body')[0].hidden = true;
+
+    window.addEventListener('load', (event) => {
+      document.getElementsByTagName('body')[0].hidden = false;
+    });
+  </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/components/prism-core.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
   <style type="text/css">
@@ -59,6 +66,10 @@ if (!doNotTrack) {
   <ul class="blog-menu">
     
       <li>
+        <a href="https://mredigonda.github.io/blog/how-to-complete-the-many-tasks-in-your-backlog/">How to Complete the Many Tasks in Your Backlog</a><span class="blog-post-date">May, 2021</span>
+      </li>
+    
+      <li>
         <a href="https://mredigonda.github.io/blog/brazilian-icpc-summer-school/">Brazilian ICPC Summer School 2018</a><span class="blog-post-date">Feb, 2018</span>
       </li>
     
@@ -76,6 +87,5 @@ if (!doNotTrack) {
        }
     }
   </script>
-  <style>html{visibility: visible;opacity:1;}</style> 
 </body>
 </html>
