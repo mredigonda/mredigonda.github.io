@@ -6,10 +6,21 @@
     <description>Recent content in Blogs on Maxi Redigonda&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 23 May 2021 11:03:01 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 22 Jun 2021 19:44:33 -0300</lastBuildDate>
     
 	<atom:link href="https://mredigonda.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ubuntu Tips</title>
+      <link>https://mredigonda.github.io/blog/ubuntu-tips/</link>
+      <pubDate>Tue, 22 Jun 2021 19:44:33 -0300</pubDate>
+      
+      <guid>https://mredigonda.github.io/blog/ubuntu-tips/</guid>
+      <description>Disable animations, it makes the experience much much faster.
+Once you disable animations, using the apps grid (shortcut SUPER + A by default) is lighting fast, and works as an application launcher (it covers the most basic functionality of applications like ulauncher).
+Finally, try to set up a script to install your common programs, and also track every configuration change that you do. A git repo with a markdown file will do.</description>
+    </item>
     
     <item>
       <title>2-Minutes Rule</title>
