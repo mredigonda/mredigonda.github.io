@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>Will everything be faster when Moore&#39;s law is over?</title>
+      <link>https://mredigonda.github.io/blog/will-everything-be-faster-when-moores-law-is-over/</link>
+      <pubDate>Fri, 15 Oct 2021 08:49:40 -0300</pubDate>
+      
+      <guid>https://mredigonda.github.io/blog/will-everything-be-faster-when-moores-law-is-over/</guid>
+      <description>Moore&amp;rsquo;s law is not really a law, it&amp;rsquo;s just the observation that the number of transistors in computers doubles every two years.
+The power of computers has been increasing exponentially for a long time, but we know that due to physical constraints, there&amp;rsquo;s a limit to how much it can grow, at least in the traditional way of adding more transistors*.
+Another law, the Parkinson&amp;rsquo;s law, is an adage that says: &amp;ldquo;work expands so as to fill the time available for its completion&amp;rdquo;.</description>
+    </item>
+    
+    <item>
       <title>Ubuntu Tips</title>
       <link>https://mredigonda.github.io/blog/ubuntu-tips/</link>
       <pubDate>Tue, 22 Jun 2021 19:44:33 -0300</pubDate>
@@ -49,6 +60,15 @@ Hardware Setup  Operating System: Ubuntu 20.04.1 LTS Processor: AMD® Ryzen 3 32
       
       <guid>https://mredigonda.github.io/blog/brazilian-icpc-summer-school/</guid>
       <description>&lt;p&gt;This is a two weeks long event, with theoretic lectures from outstanding instructors in the mornings, and competitive programming contests in the afternoons. It was held from January 22nd to February 3rd in the city of Campinas, São Paulo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Turing Machine</title>
+      <link>https://mredigonda.github.io/turing-machine/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mredigonda.github.io/turing-machine/</guid>
+      <description>Are you my developer? If yes, well, all the content for this page is in the corresponding layout. I know I know, I must learn how it works, but Hugo sometimes is not so trivial to get right.</description>
     </item>
     
   </channel>
