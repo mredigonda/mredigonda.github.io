@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Proper Form in Competitive Programming</title>
+      <link>https://mredigonda.github.io/blog/proper-form-in-competitive-programming/</link>
+      <pubDate>Thu, 28 Oct 2021 08:28:00 -0300</pubDate>
+      
+      <guid>https://mredigonda.github.io/blog/proper-form-in-competitive-programming/</guid>
+      <description>I recently started lifting weights and exercising more, I wish I would&amp;rsquo;ve done that while I was practicing for IOI / ICPC.
+My mind kept telling me that an hour in the gym was an hour I could&amp;rsquo;ve spent practicing for competitions, and while that was technically correct, that didn&amp;rsquo;t took into account all of the benefits from exercising, not only to my health but also directly to my performance in competitions.</description>
+    </item>
+    
+    <item>
       <title>Will everything be faster when Moore&#39;s law is over?</title>
       <link>https://mredigonda.github.io/blog/will-everything-be-faster-when-moores-law-is-over/</link>
       <pubDate>Fri, 15 Oct 2021 08:49:40 -0300</pubDate>
@@ -50,7 +60,7 @@ Finally, try to set up a script to install your common programs, and also track 
       
       <guid>https://mredigonda.github.io/toolbelt/</guid>
       <description>This is my hardware and software setup, along with my review of the tools I&amp;rsquo;m currently using.
-Hardware Setup  Operating System: Ubuntu 20.04.1 LTS Processor: AMD® Ryzen 3 3200g with Radeon Vega graphics × 4 Motherboard: Gigabyte GA-A320M-S2H Ryzen 2nd Gen Ready M-ATX RAM Memory: Memory ADATA DDR4 16GB 3000MHz XPG Gammix D30 Power Supply Unit: Sentey SDP650-FX 650W Solid Power 80 Plus Case: Aerocool Bolt Black Keyboard: Noga NKB-78011 Mouse: Genius DX-110 Headphones: Audio-Technica ATH-M20x Monitor: LG 24&amp;rdquo; IPS VGA HDMI Full HD FreeSync 24MK430H-B Speakers: Kolke KPC-046 Black  Software Setup  Time Management: Clockify Knowledge Base: Visual Studio Code Code Editor: Visual Studio Code Tasks Management: TickTick Work Communications: Slack Spaced Repetition: Anki Web Browser: Brave Money Management: RealByte&amp;rsquo;s MoneyManager  My Software Review Time Management - Clockify Clockify is an awesome piece of software.</description>
+Hardware Setup  Operating System: Ubuntu 20.04.1 LTS Processor: AMD® Ryzen 3 3200g with Radeon Vega graphics × 4 Motherboard: Gigabyte GA-A320M-S2H Ryzen 2nd Gen Ready M-ATX RAM Memory: x2 Memory ADATA DDR4 16GB 3000MHz XPG Gammix D30 Power Supply Unit: Sentey SDP650-FX 650W Solid Power 80 Plus Case: Aerocool Bolt Black Keyboard: Noga NKB-78011 Mouse: Logitech M90 Headphones: Audio-Technica ATH-M20x Monitor: x2 LG 24&amp;rdquo; IPS VGA HDMI Full HD FreeSync 24MK430H-B Speakers: Kolke KPC-046 Black  Software Setup  Time Management: Clockify (upd: no longer fits in my workflow) Knowledge Base: Visual Studio Code Code Editor: Visual Studio Code Tasks Management: TickTick (upd: payed for it and happy about it 🎉) Work Communications: Slack Spaced Repetition: Anki (upd: lost the habit, but eager to start it again 😪) Web Browser: Brave (upd: it broke some pages, so I had to shift to Chromium) Money Management: RealByte&amp;rsquo;s MoneyManager (upd: using adhoc Google Sheets now)  My Software Review Time Management - Clockify Clockify is an awesome piece of software.</description>
     </item>
     
     <item>

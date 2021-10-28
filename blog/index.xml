@@ -6,10 +6,20 @@
     <description>Recent content in Blogs on Maxi Redigonda&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 Oct 2021 08:49:40 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 28 Oct 2021 08:28:00 -0300</lastBuildDate>
     
 	<atom:link href="https://mredigonda.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Proper Form in Competitive Programming</title>
+      <link>https://mredigonda.github.io/blog/proper-form-in-competitive-programming/</link>
+      <pubDate>Thu, 28 Oct 2021 08:28:00 -0300</pubDate>
+      
+      <guid>https://mredigonda.github.io/blog/proper-form-in-competitive-programming/</guid>
+      <description>I recently started lifting weights and exercising more, I wish I would&amp;rsquo;ve done that while I was practicing for IOI / ICPC.
+My mind kept telling me that an hour in the gym was an hour I could&amp;rsquo;ve spent practicing for competitions, and while that was technically correct, that didn&amp;rsquo;t took into account all of the benefits from exercising, not only to my health but also directly to my performance in competitions.</description>
+    </item>
     
     <item>
       <title>Will everything be faster when Moore&#39;s law is over?</title>
