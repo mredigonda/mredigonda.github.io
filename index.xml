@@ -12,6 +12,19 @@
     
     
     <item>
+      <title>Run Script After MySQL Docker Initialization</title>
+      <link>https://mredigonda.github.io/blog/run-script-after-mysql-docker-initialization/</link>
+      <pubDate>Tue, 31 May 2022 14:18:38 -0300</pubDate>
+      
+      <guid>https://mredigonda.github.io/blog/run-script-after-mysql-docker-initialization/</guid>
+      <description>The Problem I wanted to setup automated tests for OpenSupports.
+I made them run after each commit with Github Actions, but they failed. Sometimes.
+Inside the Ubuntu given by Github Actions, I ran all steps inside Docker containers.
+The steps looked like this:
+ steps: - uses: actions/checkout@v3 - run: make build - run: make run - run: make install - run: make test And all those make commands interact with Docker containers.</description>
+    </item>
+    
+    <item>
       <title>When Reinventing the Wheel Makes Sense</title>
       <link>https://mredigonda.github.io/blog/when-reinventing-the-wheel-makes-sense/</link>
       <pubDate>Wed, 18 May 2022 10:42:17 -0300</pubDate>
