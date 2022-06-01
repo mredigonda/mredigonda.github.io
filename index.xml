@@ -12,6 +12,18 @@
     
     
     <item>
+      <title>Save Unrelated Files in Git Projects Without Modifying Gitignore</title>
+      <link>https://mredigonda.github.io/blog/save-unrelated-files-in-git-projects-without-modifying-gitignore/</link>
+      <pubDate>Wed, 01 Jun 2022 06:02:49 -0300</pubDate>
+      
+      <guid>https://mredigonda.github.io/blog/save-unrelated-files-in-git-projects-without-modifying-gitignore/</guid>
+      <description>Sometimes you have files related to the project, but you don&amp;rsquo;t want to commit them to the Git repo itself.
+Project logo of various sizes, sample files to upload to test different behaviors, screen recordings of bugs, etc.
+But you still want to have them in your repo, since they are project-related.
+Modifying .gitignore is an option. Since each person could have their own personal files in there, adding a line local to .</description>
+    </item>
+    
+    <item>
       <title>Run Script After MySQL Docker Initialization</title>
       <link>https://mredigonda.github.io/blog/run-script-after-mysql-docker-initialization/</link>
       <pubDate>Tue, 31 May 2022 14:18:38 -0300</pubDate>
