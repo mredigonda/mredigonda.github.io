@@ -6,10 +6,22 @@
     <description>Recent content in Blogs on Maxi Redigonda&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jun 2022 06:02:49 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 20 Oct 2022 14:09:09 -0300</lastBuildDate>
     
 	<atom:link href="https://mredigonda.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Principle of Reversibility</title>
+      <link>https://mredigonda.github.io/blog/principle-of-reversibility/</link>
+      <pubDate>Thu, 20 Oct 2022 14:09:09 -0300</pubDate>
+      
+      <guid>https://mredigonda.github.io/blog/principle-of-reversibility/</guid>
+      <description>Some time ago, I completed a course called &amp;ldquo;Science of Exercise&amp;rdquo;.
+One of the very first thing they teach, is the &amp;ldquo;principle of reversibility&amp;rdquo;, that explains that after a period of not using the muscles you&amp;rsquo;ve trained, those muscles go back to baseline level.
+I claim that this principle is also applicable to learning in general, and more specific, to mathematics.
+If you don&amp;rsquo;t use the mathematics muscles you&amp;rsquo;ve developed for some time, you eventually lose your progress and you go back to some baseline level.</description>
+    </item>
     
     <item>
       <title>Save Unrelated Files in Git Projects Without Modifying Gitignore</title>
