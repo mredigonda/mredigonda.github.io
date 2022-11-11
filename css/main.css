@@ -129,3 +129,18 @@ img.profile-picture {
   float: right;
   color: #555;
 }
+
+.main-content .twitter-tweet {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Hack to center images... we add a hash "#center" at the end of the link */
+
+img[src$='#center'] {
+  text-align: center;
+  display: block;
+  margin: 1.0rem auto;
+  max-width: 100%;
+  height: auto;
+}

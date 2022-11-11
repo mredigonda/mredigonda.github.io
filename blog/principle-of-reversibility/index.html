@@ -25,7 +25,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 </head>
 <body>
   <script>
@@ -47,6 +46,13 @@ if (!doNotTrack) {
         font-family: "Lora";
         src: url(https://mredigonda.github.io/fonts/Lora-Regular.woff2) format("truetype");
     }
+    img[src$='#center'] {
+      text-align: center;
+      display: block;
+      margin: 1.0rem auto;
+      max-width: 100%;
+      height: auto;
+    }
   </style>
 
   <nav>
@@ -65,7 +71,8 @@ if (!doNotTrack) {
     <h1 style="text-align: center; margin: 14px;">Principle of Reversibility</h1>
     <h5 style="text-align: center; margin-bottom: 14px; color: #555">Oct 20, 2022</h5>
     <hr>
-    <p>Some time ago, I completed a course called <a href="https://www.coursera.org/learn/science-exercise">&ldquo;Science of Exercise&rdquo;</a>.</p>
+    <div class="main-content">
+      <p>Some time ago, I completed a course called <a href="https://www.coursera.org/learn/science-exercise">&ldquo;Science of Exercise&rdquo;</a>.</p>
 <p>One of the very first thing they teach, is the &ldquo;principle of reversibility&rdquo;, that explains that after a period of not using the muscles you&rsquo;ve trained, those muscles <strong>go back to baseline level</strong>.</p>
 <p>I claim that this principle is also applicable to learning in general, and more specific, to mathematics.</p>
 <p>If you don&rsquo;t use the mathematics muscles you&rsquo;ve developed for some time, you eventually lose your progress and you go back to some baseline level.</p>
@@ -75,6 +82,7 @@ if (!doNotTrack) {
 <p>The next time you try to do it, even 20kg will be challenging. The next time you try to recall the hard concepts, even the trivial definitions will be unfamiliar.</p>
 <p>But, if you keep hitting the exercise every once in a while, then you will be able to maintain those 100kg in the long run. If you keep practicing or at least using the results you&rsquo;ve gotten in that hard subject, you will be able to maintain the knowledge you&rsquo;ve gained.</p>
 
+    </div>
   </article>
   <hr>
   <address>

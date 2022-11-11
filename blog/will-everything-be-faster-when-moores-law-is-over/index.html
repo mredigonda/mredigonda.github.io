@@ -25,7 +25,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 </head>
 <body>
   <script>
@@ -47,6 +46,13 @@ if (!doNotTrack) {
         font-family: "Lora";
         src: url(https://mredigonda.github.io/fonts/Lora-Regular.woff2) format("truetype");
     }
+    img[src$='#center'] {
+      text-align: center;
+      display: block;
+      margin: 1.0rem auto;
+      max-width: 100%;
+      height: auto;
+    }
   </style>
 
   <nav>
@@ -65,7 +71,9 @@ if (!doNotTrack) {
     <h1 style="text-align: center; margin: 14px;">Will everything be faster when Moore&#39;s law is over?</h1>
     <h5 style="text-align: center; margin-bottom: 14px; color: #555">Oct 15, 2021</h5>
     <hr>
-    <p><a href="https://en.wikipedia.org/wiki/Moore's_law">Moore&rsquo;s law</a> is not really a law, it&rsquo;s just the observation that the number of transistors in computers doubles every two years.</p>
+    <div class="main-content">
+      <p><img src="https://user-images.githubusercontent.com/25920622/188283907-5c36807c-d019-4b94-8d8c-d72e988bdf93.png#center" alt="01019-racing-car&amp;ndash;extremely-detailed-cyberpunk-(-steampunk-)&amp;ndash;day-light&amp;ndash;realistic-shaded"></p>
+<p><a href="https://en.wikipedia.org/wiki/Moore's_law">Moore&rsquo;s law</a> is not really a law, it&rsquo;s just the observation that the number of transistors in computers doubles every two years.</p>
 <p>The power of computers has been increasing exponentially for a long time, but we know that due to physical constraints, there&rsquo;s a limit to how much it can grow, at least in the traditional way of adding more transistors*.</p>
 <p>Another law, the <a href="https://en.wikipedia.org/wiki/Parkinson%27s_law">Parkinson&rsquo;s law</a>, is an adage that says: &ldquo;work expands so as to fill the time available for its completion&rdquo;. It turns out this law is applicable in many other situations too.</p>
 <p>One of the ways it applies, is with computer power: &ldquo;software expands so as to use all the hardware resources available to it&rdquo;.</p>
@@ -77,6 +85,7 @@ if (!doNotTrack) {
 <p>I have this view from looking back at old devices (or even at current embedded devices). Think about the Game Boy Advance. Maybe the games weren&rsquo;t as today&rsquo;s games, but we were able to have extremely nice performance even on much much much weaker hardware.</p>
 <p>(*): Maybe we finally develop a reliable quantum computer and we have many more orders of magnitude to spare.</p>
 
+    </div>
   </article>
   <hr>
   <address>

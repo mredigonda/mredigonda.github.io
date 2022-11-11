@@ -6,10 +6,18 @@
     <description>Recent content in Welcome! on Maxi Redigonda&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Apr 2020 16:46:41 -0300</lastBuildDate>
-    
-	<atom:link href="https://mredigonda.github.io/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Thu, 02 Apr 2020 16:46:41 -0300</lastBuildDate><atom:link href="https://mredigonda.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Block Explorer for Local Network in Hardhat</title>
+      <link>https://mredigonda.github.io/blog/block-explorer-for-local-network-in-hardhat/</link>
+      <pubDate>Fri, 11 Nov 2022 13:37:43 -0300</pubDate>
+      
+      <guid>https://mredigonda.github.io/blog/block-explorer-for-local-network-in-hardhat/</guid>
+      <description>Hardhat, by default, uses a per-process built-in local Ethereum network to run your scripts, tests, deploys, etc.
+It creates the network when you run a script, and destroys it afterwards. You can get more info here.
+As an alternative, you can run it in stand-alone mode, to support external wallets (MetaMask et al). For this, you need to run: npx hardhat node.
+Then, to connect your scripts to this stand-alone network, you need to specify the localhost network.</description>
+    </item>
     
     <item>
       <title>Principle of Reversibility</title>
@@ -109,7 +117,7 @@ Finally, try to set up a script to install your common programs, and also track 
       
       <guid>https://mredigonda.github.io/toolbelt/</guid>
       <description>This is my hardware and software setup, along with my review of the tools I&amp;rsquo;m currently using.
-Hardware Setup  Operating System: Ubuntu 20.04.4 LTS Processor: AMD® Ryzen 3 3200g with Radeon Vega graphics × 4 Motherboard: Gigabyte GA-A320M-S2H Ryzen 2nd Gen Ready M-ATX RAM Memory: x2 Memory ADATA DDR4 16GB 3000MHz XPG Gammix D30 Power Supply Unit: Sentey SDP650-FX 650W Solid Power 80 Plus Case: Aerocool Bolt Black Keyboard: HyperX Alloy FPS Pro Mechanical Gaming Keyboard Mouse: Logitech M90 Headphones: HyperX Cloud 2 Monitor: x2 LG 24&amp;rdquo; IPS VGA HDMI Full HD FreeSync 24MK430H-B Speakers: Genius SP-HF280  Software Setup  Time Management: Clockify (upd: no longer fits in my workflow) Knowledge Base: Visual Studio Code Code Editor: Visual Studio Code Tasks Management: TickTick (upd: payed for it and happy about it 🎉) Work Communications: Slack Spaced Repetition: Anki (upd: lost the habit, but eager to start it again 😪) Web Browser: Brave (upd: it broke some pages, so I had to shift to Chromium) Money Management: RealByte&amp;rsquo;s MoneyManager (upd: using adhoc Google Sheets now)  My Software Review Time Management - Clockify Clockify is an awesome piece of software.</description>
+Hardware Setup  Operating System: Ubuntu 20.04.4 LTS Processor: AMD® Ryzen 3 3200g with Radeon Vega graphics × 4 Motherboard: Gigabyte GA-A320M-S2H Ryzen 2nd Gen Ready M-ATX RAM Memory: x2 Memory ADATA DDR4 16GB 3000MHz XPG Gammix D30 Power Supply Unit: Sentey SDP650-FX 650W Solid Power 80 Plus Case: Aerocool Bolt Black Keyboard: HyperX Alloy FPS Pro Mechanical Gaming Keyboard Mouse: Logitech M90 Headphones: HyperX Cloud 2 Monitor: x2 LG 24&amp;quot; IPS VGA HDMI Full HD FreeSync 24MK430H-B Speakers: Genius SP-HF280  Software Setup  Time Management: Clockify (upd: no longer fits in my workflow) Knowledge Base: Visual Studio Code Code Editor: Visual Studio Code Tasks Management: TickTick (upd: payed for it and happy about it 🎉) Work Communications: Slack Spaced Repetition: Anki (upd: lost the habit, but eager to start it again 😪) Web Browser: Brave (upd: it broke some pages, so I had to shift to Chromium) Money Management: RealByte&amp;rsquo;s MoneyManager (upd: using adhoc Google Sheets now)  My Software Review Time Management - Clockify Clockify is an awesome piece of software.</description>
     </item>
     
     <item>
@@ -118,7 +126,17 @@ Hardware Setup  Operating System: Ubuntu 20.04.4 LTS Processor: AMD® Ryzen 3 32
       <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mredigonda.github.io/blog/brazilian-icpc-summer-school/</guid>
-      <description>&lt;p&gt;This is a two weeks long event, with theoretic lectures from outstanding instructors in the mornings, and competitive programming contests in the afternoons. It was held from January 22nd to February 3rd in the city of Campinas, São Paulo.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/25920622/188284803-e112e5ab-647e-4368-99d7-8011422417e0.png#center&#34; alt=&#34;01159-a-sun&amp;amp;ndash;extremely-detailed&amp;amp;ndash;in-the-style-of-cyberpunk-(-steampunk-)&amp;amp;ndash;day-light&amp;amp;ndash;realistic-shaded&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is a two weeks long event, with theoretic lectures from outstanding instructors in the mornings, and competitive programming contests in the afternoons. It was held from January 22nd to February 3rd in the city of Campinas, São Paulo.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Cell Game</title>
+      <link>https://mredigonda.github.io/cell-game/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mredigonda.github.io/cell-game/</guid>
+      <description>Are you my developer? If yes, well, all the content for this page is in the corresponding layout. I know I know, I must learn how it works, but Hugo sometimes is not so trivial to get right.</description>
     </item>
     
     <item>

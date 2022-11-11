@@ -25,7 +25,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 </head>
 <body>
   <script>
@@ -47,6 +46,13 @@ if (!doNotTrack) {
         font-family: "Lora";
         src: url(https://mredigonda.github.io/fonts/Lora-Regular.woff2) format("truetype");
     }
+    img[src$='#center'] {
+      text-align: center;
+      display: block;
+      margin: 1.0rem auto;
+      max-width: 100%;
+      height: auto;
+    }
   </style>
 
   <nav>
@@ -65,12 +71,14 @@ if (!doNotTrack) {
     <h1 style="text-align: center; margin: 14px;">Run Script After MySQL Docker Initialization</h1>
     <h5 style="text-align: center; margin-bottom: 14px; color: #555">May 31, 2022</h5>
     <hr>
-    <h2 id="the-problem">The Problem</h2>
+    <div class="main-content">
+      <p><img src="https://user-images.githubusercontent.com/25920622/188284203-886e03a4-6917-4a5c-bdb5-b023ce0c006e.png#center" alt="01021-container&amp;ndash;extremely-detailed-cyberpunk-(-steampunk-)&amp;ndash;day-light&amp;ndash;realistic-shaded"></p>
+<h2 id="the-problem">The Problem</h2>
 <p>I wanted to setup automated tests for <a href="https://github.com/opensupports/opensupports/">OpenSupports</a>.</p>
 <p>I made them run after each commit with Github Actions, but they failed. <strong>Sometimes</strong>.</p>
 <p>Inside the Ubuntu given by Github Actions, I ran all steps inside Docker containers.</p>
 <p>The steps looked like this:</p>
-<pre><code>    steps:
+<pre tabindex="0"><code>    steps:
       - uses: actions/checkout@v3
       - run: make build
       - run: make run
@@ -84,13 +92,13 @@ if (!doNotTrack) {
 <li><strong>make test</strong>: finally runs all tests</li>
 </ul>
 <p>When done this way, one step after another, I <strong>sometimes</strong> saw this error in the logs from Docker:</p>
-<pre><code>2022-05-31T14:45:34.922935Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
+<pre tabindex="0"><code>2022-05-31T14:45:34.922935Z 0 [ERROR] InnoDB: Unable to lock ./ibdata1 error: 11
 2022-05-31T14:45:34.922969Z 0 [Note] InnoDB: Check that you do not already have another mysqld process using the same InnoDB data or log files.
 </code></pre><p>But sadly none of the resources for these errors helped me.</p>
 <h2 id="the-solution">The Solution</h2>
 <p>The <a href="https://hub.docker.com/_/mysql">MySQL Docker official image</a> will run all <code>.sh</code> scripts in the folder <code>/docker-entrypoint-initdb.d</code> from the docker container.</p>
 <p>First I placed my initialization script in a folder, like <code>./scripts-db/init-db.sh</code>, with content:</p>
-<pre><code>mysql -u root -e &quot;CREATE DATABASE IF NOT EXISTS development;&quot;
+<pre tabindex="0"><code>mysql -u root -e &#34;CREATE DATABASE IF NOT EXISTS development;&#34;
 </code></pre><p>Then I <a href="https://docs.docker.com/storage/volumes/">mounted that folder</a> to the special location inside the docker container: I added <code>-v $(pwd)/.scripts-db:/docker-entrypoint-initdb.d</code> to my <code>docker run</code> command.</p>
 <p>Then I just removed the extra step that tried to create the database in <code>make install</code>, since it now gets done from the <code>make run</code> command alone.</p>
 <h2 id="the-explanation">The Explanation</h2>
@@ -99,6 +107,7 @@ if (!doNotTrack) {
 <p>As a result, first running <code>make run</code> started the MySQL image, but that requires some initialization steps, and at the same time those initialization steps were being done, the script under <code>make install</code> runs, which <strong>tries to create a database</strong>. As a consequence, I received the error mentioned above.</p>
 <p>The solution was creating the database directly after all those initialization steps ran. The <a href="https://hub.docker.com/_/mysql">MySQL Docker official image</a> has a way to do this (explained in The Solution section).</p>
 
+    </div>
   </article>
   <hr>
   <address>

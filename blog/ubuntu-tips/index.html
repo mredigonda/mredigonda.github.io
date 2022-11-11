@@ -25,7 +25,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 </head>
 <body>
   <script>
@@ -47,6 +46,13 @@ if (!doNotTrack) {
         font-family: "Lora";
         src: url(https://mredigonda.github.io/fonts/Lora-Regular.woff2) format("truetype");
     }
+    img[src$='#center'] {
+      text-align: center;
+      display: block;
+      margin: 1.0rem auto;
+      max-width: 100%;
+      height: auto;
+    }
   </style>
 
   <nav>
@@ -65,11 +71,14 @@ if (!doNotTrack) {
     <h1 style="text-align: center; margin: 14px;">Ubuntu Tips</h1>
     <h5 style="text-align: center; margin-bottom: 14px; color: #555">Jun 22, 2021</h5>
     <hr>
-    <p><strong>Disable animations</strong>, it makes the experience much much faster.</p>
+    <div class="main-content">
+      <p><img src="https://user-images.githubusercontent.com/25920622/188284353-84853ebb-5557-42d9-81c3-6fd9ecd39eed.png#center" alt="01140-a-pair-of-glasses&amp;ndash;extremely-detailed&amp;ndash;in-the-style-of-cyberpunk-(-steampunk-)&amp;ndash;day-light&amp;ndash;realistic"></p>
+<p><strong>Disable animations</strong>, it makes the experience much much faster.</p>
 <p>Once you disable animations, using the <strong>apps grid</strong> (shortcut <code>SUPER + A</code> by default) is lighting fast, and works as an application launcher (it covers the most basic functionality of applications like <a href="https://ulauncher.io/">ulauncher</a>).</p>
 <p>Finally, try to <strong>set up a script to install your common programs</strong>, and also track every configuration change that you do. A git repo with a markdown file will do.</p>
 <p>Many times reinstalling the operating system is the easiest option to do, and having that script and guide to set up your Ubuntu to your liking will be really useful. Needless to say the script doesn&rsquo;t have to be perfect.</p>
 
+    </div>
   </article>
   <hr>
   <address>

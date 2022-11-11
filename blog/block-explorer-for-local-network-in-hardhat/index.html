@@ -10,7 +10,7 @@
   <link rel="preload" href="https://mredigonda.github.io/fonts/Lora-Regular.woff2" type="font/woff2" crossorigin="anonymous" as="font">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism.min.css" rel="stylesheet" />
   <title>
-  When Reinventing the Wheel Makes Sense | Blog
+  Block Explorer for Local Network in Hardhat | Blog
 </title>
   
 <script type="application/javascript">
@@ -68,35 +68,28 @@ if (!doNotTrack) {
   <main class="main-content">
     
   <article>
-    <h1 style="text-align: center; margin: 14px;">When Reinventing the Wheel Makes Sense</h1>
-    <h5 style="text-align: center; margin-bottom: 14px; color: #555">May 18, 2022</h5>
+    <h1 style="text-align: center; margin: 14px;">Block Explorer for Local Network in Hardhat</h1>
+    <h5 style="text-align: center; margin-bottom: 14px; color: #555">Nov 11, 2022</h5>
     <hr>
     <div class="main-content">
-      <p><img src="https://user-images.githubusercontent.com/25920622/188283771-59e9560a-fa48-44cb-ad5a-9a930a37648a.png#center" alt="01108-a-wheel&amp;ndash;extremely-detailed&amp;ndash;in-the-style-of-cyberpunk-(-steampunk-)&amp;ndash;day-light&amp;ndash;realistic-shaded"></p>
-<ol>
-<li></li>
-</ol>
-<p>I have a close friend of mine with whom I share (or shared) many projects and activities.</p>
-<p>One of those activities was <strong>mathematical olympiads</strong>.</p>
-<p>In those competitions, once you enter the room, you are left alone with what you already know, the problem statements, and what you can derive from those.</p>
-<p>He&rsquo;s told me that in one of those competitions he was able to discover the <a href="https://en.wikipedia.org/wiki/Quadratic_equation">quadratic equation</a>, because he needed it to solve the problem. He didn&rsquo;t know about it before that.</p>
-<p><img src="https://user-images.githubusercontent.com/25920622/169066007-7ca37332-45ee-4037-9b3d-9595d78cf51a.png" alt="image"></p>
-<p>This might not be an <em>amazing</em> feat, plenty of people have done the same, and you even learn how to derive that equation when you prove it. However, this sheds some light into his <strong>problem solving approach</strong>.</p>
-<p>Indeed, this does not only happen in math competitions, where you are somewhat forced to come up with ideas with what you have.</p>
-<ol start="2">
-<li></li>
-</ol>
-<p>He&rsquo;s not as pushed as everybody else to &ldquo;see what others are doing&rdquo;. Instead, he focuses on solving the problem on his own.</p>
-<p>This has a serious drawback, he sometimes <strong>reinvents the wheel</strong>. And many other times, too, he gets to a somewhat wrong or suboptimal solution.</p>
-<p>However, he <strong>solves the problem</strong>.</p>
-<p>And more importantly, he gets one extra experience point in problem solving.</p>
-<p>Other people, can simply quickly Google the solution and be done. Those of us, don&rsquo;t get the extra experience points from thinking about the problem (yet, yes, our solution can be more robust since it&rsquo;s &ldquo;confirmed&rdquo; by somebody else).</p>
-<p>But what happens when for the problem at hand, <strong>no one has reached a solution?</strong> Or when the problem is too specific to your own circumstance?</p>
-<p>Those cases happen often. And by definition we can&rsquo;t be successful applying what others have done before. Not exactly at least.</p>
-<p>In those situations, he&rsquo;s got a deep advantange: all that experience in solving problems.</p>
-<p>Yes, his solutions can be buggy, somewhat wrong, incomplete, and whatnot.</p>
-<p>However, he <strong>solves the problem</strong>.</p>
-<p>And for the rest of us, that is the complicated part.</p>
+      <p>Hardhat, by default, uses a per-process built-in local Ethereum network to run your scripts, tests, deploys, etc.</p>
+<p>It creates the network when you run a script, and destroys it afterwards. You can get <a href="https://hardhat.org/hardhat-network/docs/overview">more info here</a>.</p>
+<p>As an alternative, you can run it in stand-alone mode, to support external wallets (MetaMask et al). For this, you need to run: <code>npx hardhat node</code>.</p>
+<p>Then, to connect your scripts to this stand-alone network, you need to specify the localhost network. As an example, to run a script called <code>deploy.ts</code>, you would run something like: <code>npx hardhat run scripts/deploy.ts --network localhost</code>.</p>
+<h2 id="local-network-explorer">Local Network Explorer</h2>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hmm, so how do I see transactions in my local hardhat network (after running `npx hardhat node`)?<br><br>I see people do it with Ganache, but I want something to connect to my JSON-RPC server at :8545 and be done with it...</p>&mdash; Maximiliano Redigonda (@mredigondadev) <a href="https://twitter.com/mredigondadev/status/1591091736130228230?ref_src=twsrc%5Etfw">November 11, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>I felt the need for an explorer of this local network, to get the actual data that is used in each transaction, gas costs data, etc.</p>
+<p>So far, the only tool I&rsquo;ve found is <a href="https://github.com/etherparty/explorer">Etherparty Explorer</a>, whose last commit was on 2017.</p>
+<p>It works, although it will give you some warnings that the node version you are using is not the one specified (it was meant to be run with Node &lt;=2).</p>
+<p>Install its dependencies with <code>npm install</code>, then run it with <code>npm start</code>, and by default it will connect to your local hardhat network which serves a JSON-RPC server at port :8545.</p>
+<p>You will need to open it manually at <code>http://localhost:8000/</code>, and it will show you something like:</p>
+<figure><img src="https://user-images.githubusercontent.com/25920622/201389186-05166ece-8c77-4c45-b07f-7e1e3028b32c.png#center" width="768"/><figcaption>
+            <h4>Etherparty Explorer</h4>
+        </figcaption>
+</figure>
+
 
     </div>
   </article>

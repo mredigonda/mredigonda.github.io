@@ -6,10 +6,18 @@
     <description>Recent content in Blogs on Maxi Redigonda&#39;s Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 20 Oct 2022 14:09:09 -0300</lastBuildDate>
-    
-	<atom:link href="https://mredigonda.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
-    
+    <lastBuildDate>Fri, 11 Nov 2022 13:37:43 -0300</lastBuildDate><atom:link href="https://mredigonda.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Block Explorer for Local Network in Hardhat</title>
+      <link>https://mredigonda.github.io/blog/block-explorer-for-local-network-in-hardhat/</link>
+      <pubDate>Fri, 11 Nov 2022 13:37:43 -0300</pubDate>
+      
+      <guid>https://mredigonda.github.io/blog/block-explorer-for-local-network-in-hardhat/</guid>
+      <description>Hardhat, by default, uses a per-process built-in local Ethereum network to run your scripts, tests, deploys, etc.
+It creates the network when you run a script, and destroys it afterwards. You can get more info here.
+As an alternative, you can run it in stand-alone mode, to support external wallets (MetaMask et al). For this, you need to run: npx hardhat node.
+Then, to connect your scripts to this stand-alone network, you need to specify the localhost network.</description>
+    </item>
     
     <item>
       <title>Principle of Reversibility</title>
@@ -108,7 +116,8 @@ Finally, try to set up a script to install your common programs, and also track 
       <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://mredigonda.github.io/blog/brazilian-icpc-summer-school/</guid>
-      <description>&lt;p&gt;This is a two weeks long event, with theoretic lectures from outstanding instructors in the mornings, and competitive programming contests in the afternoons. It was held from January 22nd to February 3rd in the city of Campinas, São Paulo.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/25920622/188284803-e112e5ab-647e-4368-99d7-8011422417e0.png#center&#34; alt=&#34;01159-a-sun&amp;amp;ndash;extremely-detailed&amp;amp;ndash;in-the-style-of-cyberpunk-(-steampunk-)&amp;amp;ndash;day-light&amp;amp;ndash;realistic-shaded&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is a two weeks long event, with theoretic lectures from outstanding instructors in the mornings, and competitive programming contests in the afternoons. It was held from January 22nd to February 3rd in the city of Campinas, São Paulo.&lt;/p&gt;</description>
     </item>
     
   </channel>

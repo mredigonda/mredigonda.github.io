@@ -25,7 +25,6 @@ if (!doNotTrack) {
 	ga('send', 'pageview');
 }
 </script>
-
 </head>
 <body>
   <script>
@@ -47,6 +46,13 @@ if (!doNotTrack) {
         font-family: "Lora";
         src: url(https://mredigonda.github.io/fonts/Lora-Regular.woff2) format("truetype");
     }
+    img[src$='#center'] {
+      text-align: center;
+      display: block;
+      margin: 1.0rem auto;
+      max-width: 100%;
+      height: auto;
+    }
   </style>
 
   <nav>
@@ -65,6 +71,10 @@ if (!doNotTrack) {
   <hr>
   
   <ul class="blog-menu">
+    
+      <li>
+        <a href="https://mredigonda.github.io/blog/block-explorer-for-local-network-in-hardhat/">Block Explorer for Local Network in Hardhat</a><span class="blog-post-date">Nov, 2022</span>
+      </li>
     
       <li>
         <a href="https://mredigonda.github.io/blog/principle-of-reversibility/">Principle of Reversibility</a><span class="blog-post-date">Oct, 2022</span>
