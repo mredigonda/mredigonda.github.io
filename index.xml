@@ -8,6 +8,18 @@
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Apr 2020 16:46:41 -0300</lastBuildDate><atom:link href="https://mredigonda.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>VSCode Snippets for ChatGPT 4</title>
+      <link>https://mredigonda.github.io/blog/vs-code-snippets-for-chatgpt-4/</link>
+      <pubDate>Sat, 03 Jun 2023 17:05:32 -0300</pubDate>
+      
+      <guid>https://mredigonda.github.io/blog/vs-code-snippets-for-chatgpt-4/</guid>
+      <description>It seems we&amp;rsquo;ve forgotten how much AI needs context to produce great results. Lots of people I see using chatGPT do it with a single line of text.
+If we compare it with image generation like stable diffusion, we know that adding more context can make it generate much better images.
+In this example, we see that specific chunks of text generate specific-looking images.
+We can do the same thing for ChatGPT4 as well.</description>
+    </item>
+    
+    <item>
       <title>Make It Easy for People to Share Feedback With You</title>
       <link>https://mredigonda.github.io/blog/make-it-easy-for-people-to-share-feedback-with-you/</link>
       <pubDate>Fri, 21 Apr 2023 13:20:13 -0300</pubDate>
