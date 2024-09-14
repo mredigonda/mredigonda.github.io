@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-QWSTVD535S"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-QWSTVD535S');
-  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="preload" type="text/css" href="https://mredigonda.github.io/css/main.css" as="style" />
@@ -22,8 +13,6 @@
   Block Explorer for Local Network in Hardhat | Blog
 </title>
   
-  
-
 </head>
 <body>
   <script>
@@ -79,14 +68,15 @@
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Hmm, so how do I see transactions in my local hardhat network (after running `npx hardhat node`)?<br><br>I see people do it with Ganache, but I want something to connect to my JSON-RPC server at :8545 and be done with it...</p>&mdash; Maximiliano Redigonda (@mredigondadev) <a href="https://twitter.com/mredigondadev/status/1591091736130228230?ref_src=twsrc%5Etfw">November 11, 2022</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+
 <p>I felt the need for an explorer of this local network, to get the actual data that is used in each transaction, gas costs data, etc.</p>
 <p>So far, the only tool I&rsquo;ve found is <a href="https://github.com/etherparty/explorer">Etherparty Explorer</a>, whose last commit was on 2017.</p>
 <p>It works, although it will give you some warnings that the node version you are using is not the one specified (it was meant to be run with Node &lt;=2).</p>
 <p>Install its dependencies with <code>npm install</code>, then run it with <code>npm start</code>, and by default it will connect to your local hardhat network which serves a JSON-RPC server at port :8545.</p>
 <p>You will need to open it manually at <code>http://localhost:8000/</code>, and it will show you something like:</p>
-<figure><img src="https://user-images.githubusercontent.com/25920622/201389186-05166ece-8c77-4c45-b07f-7e1e3028b32c.png#center" width="768"/><figcaption>
-            <h4>Etherparty Explorer</h4>
-        </figcaption>
+<figure><img src="https://user-images.githubusercontent.com/25920622/201389186-05166ece-8c77-4c45-b07f-7e1e3028b32c.png#center" width="768"><figcaption>
+      <h4>Etherparty Explorer</h4>
+    </figcaption>
 </figure>
 
 

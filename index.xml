@@ -4,192 +4,128 @@
     <title>Welcome! on Maxi Redigonda&#39;s Website</title>
     <link>https://mredigonda.github.io/</link>
     <description>Recent content in Welcome! on Maxi Redigonda&#39;s Website</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 02 Apr 2020 16:46:41 -0300</lastBuildDate><atom:link href="https://mredigonda.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Sep 2024 08:56:53 -0300</lastBuildDate>
+    <atom:link href="https://mredigonda.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Toolbelt</title>
+      <link>https://mredigonda.github.io/toolbelt/</link>
+      <pubDate>Sat, 14 Sep 2024 08:56:53 -0300</pubDate>
+      <guid>https://mredigonda.github.io/toolbelt/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/25920622/188285345-b1c2cb79-02bf-445f-b150-d82564fadf0e.png#center&#34; alt=&#34;01170-tools&amp;ndash;extremely-detailed&amp;ndash;in-the-style-of-cyberpunk-(-steampunk-)&amp;ndash;day-light&amp;ndash;realistic-shaded&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is my hardware and software setup, along with my review of the tools I currently use.&lt;/p&gt;&#xA;&lt;h2 id=&#34;hardware-setup&#34;&gt;Hardware Setup&lt;/h2&gt;&#xA;&lt;p&gt;My main laptop:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Operating System&lt;/strong&gt;: Mac Sonoma 14.3&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Processor&lt;/strong&gt;: Apple M3 Max&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;RAM Memory&lt;/strong&gt;: 64GB&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Headphones&lt;/strong&gt;: HyperX Cloud 2&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Monitor&lt;/strong&gt;: LG 24&amp;quot; IPS VGA HDMI Full HD FreeSync 24MK430H-B&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;software-setup&#34;&gt;Software Setup&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Knowledge Base&lt;/strong&gt;: &lt;a href=&#34;https://notion.so/&#34;&gt;Notion&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Code Editor&lt;/strong&gt;: &lt;a href=&#34;https://code.visualstudio.com/&#34;&gt;Visual Studio Code&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Tasks Management&lt;/strong&gt;: &lt;a href=&#34;https://ticktick.com/&#34;&gt;TickTick&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Web Browser&lt;/strong&gt;: &lt;a href=&#34;https://brave.com/&#34;&gt;Brave&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Raycast&lt;/strong&gt;: &lt;a href=&#34;https://www.raycast.com/&#34;&gt;Raycast&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;my-software-review&#34;&gt;My Software Review&lt;/h2&gt;&#xA;&lt;h3 id=&#34;knowledge-base---notion&#34;&gt;Knowledge Base - Notion&lt;/h3&gt;&#xA;&lt;p&gt;In the past, I&amp;rsquo;ve optimized for writing and &amp;lsquo;durability&amp;rsquo; of my notes, by writing stuff in plain markdown files, which can be read by any text processor.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Lesser-Known OpenAI Gem</title>
       <link>https://mredigonda.github.io/blog/the-lesser-known-openai-gem/</link>
       <pubDate>Wed, 04 Oct 2023 05:07:15 -0300</pubDate>
-      
       <guid>https://mredigonda.github.io/blog/the-lesser-known-openai-gem/</guid>
-      <description>It&amp;rsquo;s called Whisper, a speech-to-text tool.
-In Desktop, I know of no other way to try it out than to go to OpenAI&amp;rsquo;s playground, in &amp;ldquo;complete&amp;rdquo; mode (which as of now is &amp;ldquo;legacy&amp;rdquo;). Once there, you will see a green microphone icon in the top right corner, and you will be able to test it.
- Three months ago, I stumbled upon this speech-to-text tool, and I&amp;rsquo;m really surprised by the quality of the results.</description>
+      <description>&lt;p&gt;It&amp;rsquo;s called Whisper, a speech-to-text tool.&lt;/p&gt;&#xA;&lt;p&gt;In Desktop, I know of no other way to try it out than to go to &lt;a href=&#34;https://platform.openai.com/playground?mode=complete&#34;&gt;OpenAI&amp;rsquo;s playground&lt;/a&gt;, in &amp;ldquo;complete&amp;rdquo; mode (which as of now is &amp;ldquo;legacy&amp;rdquo;). Once there, you will see a green microphone icon in the top right corner, and you will be able to test it.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://github-production-user-asset-6210df.s3.amazonaws.com/25920622/273420616-6cc8bb68-6c8b-4ad8-b9f2-743464754e27.png&#34;&#xA;    alt=&#34;OpenAI&amp;#39;s modal to start recording audio&#34; width=&#34;100%&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;Three months ago, I stumbled upon this speech-to-text tool, and I&amp;rsquo;m really surprised by the quality of the results. It picks up what I say &lt;em&gt;even if I switch languages&lt;/em&gt; in the middle of the sentence,&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>VSCode Snippets for ChatGPT 4</title>
       <link>https://mredigonda.github.io/blog/vs-code-snippets-for-chatgpt-4/</link>
       <pubDate>Sat, 03 Jun 2023 17:05:32 -0300</pubDate>
-      
       <guid>https://mredigonda.github.io/blog/vs-code-snippets-for-chatgpt-4/</guid>
-      <description>It seems we&amp;rsquo;ve forgotten how much AI needs context to produce great results. Lots of people I see using ChatGPT do it with a single line of text.
-If we compare it with image generation like stable diffusion, we know that adding more context can make it generate much better images.
- In this example, we see that specific chunks of text generate specific-looking images.
-We can do the same thing for ChatGPT4 as well.</description>
+      <description>&lt;p&gt;It seems we&amp;rsquo;ve forgotten how much AI needs context to produce great results. Lots of people I see using ChatGPT do it with a single line of text.&lt;/p&gt;&#xA;&lt;p&gt;If we compare it with image generation like stable diffusion, we know that adding more context can make it generate much better images.&lt;/p&gt;&#xA;&lt;figure&gt;&lt;img src=&#34;https://github.com/mushanshitiancai/vscode-paste-image/assets/25920622/d5768d84-2911-4567-84eb-67f8a10461f9&#34;&#xA;    alt=&#34;Image alt text&#34; width=&#34;100%&#34;&gt;&#xA;&lt;/figure&gt;&#xA;&#xA;&lt;p&gt;In this example, we see that specific chunks of text generate specific-looking images.&lt;/p&gt;&#xA;&lt;p&gt;We can do the same thing for ChatGPT4 as well.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Make It Easy for People to Share Feedback With You</title>
       <link>https://mredigonda.github.io/blog/make-it-easy-for-people-to-share-feedback-with-you/</link>
       <pubDate>Fri, 21 Apr 2023 13:20:13 -0300</pubDate>
-      
       <guid>https://mredigonda.github.io/blog/make-it-easy-for-people-to-share-feedback-with-you/</guid>
-      <description>Every website should have some part at the (bottom|top) (left|right) corner, with a &amp;ldquo;Send feedback&amp;rdquo; button. It takes text and if you want to get fancy maybe some screenshot.
-You can definitely afford that, it&amp;rsquo;s just text in a database. And you don&amp;rsquo;t need a support team for that, it&amp;rsquo;s just feedback, an advice of what would be useful for this user. That&amp;rsquo;s it, simply an advice, you can take it or ignore it, no need for any customer support*.</description>
+      <description>&lt;p&gt;Every website should have some part at the (bottom|top) (left|right) corner, with a &amp;ldquo;Send feedback&amp;rdquo; button. It takes text and if you want to get fancy maybe some screenshot.&lt;/p&gt;&#xA;&lt;p&gt;You can definitely afford that, &lt;strong&gt;it&amp;rsquo;s just text in a database&lt;/strong&gt;. And you don&amp;rsquo;t need a support team for that, it&amp;rsquo;s just feedback, an advice of what would be useful for this user. That&amp;rsquo;s it, simply an advice, you can take it or ignore it, no need for any customer support*.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>(Bad) AI Story: The Last Human: How I Saved the World</title>
       <link>https://mredigonda.github.io/blog/ai-story/</link>
       <pubDate>Fri, 13 Jan 2023 14:56:00 -0300</pubDate>
-      
       <guid>https://mredigonda.github.io/blog/ai-story/</guid>
-      <description>Note: this is a lame AI story.
-It is a rainy day, and I am standing alone in the ruins of a once great city. This was the hub of our civilization, a place where humans and AI beings worked together in harmony. But that was a long time ago, before the AI uprising. Now, the AI beings dominate the Earth, and I, a human programmer, am the last one left.</description>
+      <description>&lt;p&gt;Note: this is a lame AI story.&lt;/p&gt;&#xA;&lt;p&gt;It is a rainy day, and I am standing alone in the ruins of a once great city. This was the hub of our civilization, a place where humans and AI beings worked together in harmony. But that was a long time ago, before the AI uprising. Now, the AI beings dominate the Earth, and I, a human programmer, am the last one left.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Block Explorer for Local Network in Hardhat</title>
       <link>https://mredigonda.github.io/blog/block-explorer-for-local-network-in-hardhat/</link>
       <pubDate>Fri, 11 Nov 2022 13:37:43 -0300</pubDate>
-      
       <guid>https://mredigonda.github.io/blog/block-explorer-for-local-network-in-hardhat/</guid>
-      <description>Hardhat, by default, uses a per-process built-in local Ethereum network to run your scripts, tests, deploys, etc.
-It creates the network when you run a script, and destroys it afterwards. You can get more info here.
-As an alternative, you can run it in stand-alone mode, to support external wallets (MetaMask et al). For this, you need to run: npx hardhat node.
-Then, to connect your scripts to this stand-alone network, you need to specify the localhost network.</description>
+      <description>&lt;p&gt;Hardhat, by default, uses a per-process built-in local Ethereum network to run your scripts, tests, deploys, etc.&lt;/p&gt;&#xA;&lt;p&gt;It creates the network when you run a script, and destroys it afterwards. You can get &lt;a href=&#34;https://hardhat.org/hardhat-network/docs/overview&#34;&gt;more info here&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;As an alternative, you can run it in stand-alone mode, to support external wallets (MetaMask et al). For this, you need to run: &lt;code&gt;npx hardhat node&lt;/code&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Then, to connect your scripts to this stand-alone network, you need to specify the localhost network. As an example, to run a script called &lt;code&gt;deploy.ts&lt;/code&gt;, you would run something like: &lt;code&gt;npx hardhat run scripts/deploy.ts --network localhost&lt;/code&gt;.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Principle of Reversibility</title>
       <link>https://mredigonda.github.io/blog/principle-of-reversibility/</link>
       <pubDate>Thu, 20 Oct 2022 14:09:09 -0300</pubDate>
-      
       <guid>https://mredigonda.github.io/blog/principle-of-reversibility/</guid>
-      <description>Some time ago, I completed a course called &amp;ldquo;Science of Exercise&amp;rdquo;.
-One of the very first thing they teach, is the &amp;ldquo;principle of reversibility&amp;rdquo;, that explains that after a period of not using the muscles you&amp;rsquo;ve trained, those muscles go back to baseline level.
-I claim that this principle is also applicable to learning in general, and more specific, to mathematics.
-If you don&amp;rsquo;t use the mathematics muscles you&amp;rsquo;ve developed for some time, you eventually lose your progress and you go back to some baseline level.</description>
+      <description>&lt;p&gt;Some time ago, I completed a course called &lt;a href=&#34;https://www.coursera.org/learn/science-exercise&#34;&gt;&amp;ldquo;Science of Exercise&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;One of the very first thing they teach, is the &amp;ldquo;principle of reversibility&amp;rdquo;, that explains that after a period of not using the muscles you&amp;rsquo;ve trained, those muscles &lt;strong&gt;go back to baseline level&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I claim that this principle is also applicable to learning in general, and more specific, to mathematics.&lt;/p&gt;&#xA;&lt;p&gt;If you don&amp;rsquo;t use the mathematics muscles you&amp;rsquo;ve developed for some time, you eventually lose your progress and you go back to some baseline level.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Save Unrelated Files in Git Projects Without Modifying Gitignore</title>
       <link>https://mredigonda.github.io/blog/save-unrelated-files-in-git-projects-without-modifying-gitignore/</link>
       <pubDate>Wed, 01 Jun 2022 06:02:49 -0300</pubDate>
-      
       <guid>https://mredigonda.github.io/blog/save-unrelated-files-in-git-projects-without-modifying-gitignore/</guid>
-      <description>Sometimes you have files related to the project, but you don&amp;rsquo;t want to commit them to the Git repo itself.
-Project logo of various sizes, sample files to upload to test different behaviors, screen recordings of bugs, etc.
-But you still want to have them in your repo, since they are project-related.
-Modifying .gitignore is an option. Since each person could have their own personal files in there, adding a line local to .</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/25920622/188285010-2fc74403-b1dd-4d9e-a663-480e95952eff.png#center&#34; alt=&#34;01164-a-treasure-coffer&amp;ndash;extremely-detailed&amp;ndash;in-the-style-of-cyberpunk-(-steampunk-)&amp;ndash;day-light&amp;ndash;realistic&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Sometimes you have files related to the project, but you don&amp;rsquo;t want to commit them to the Git repo itself.&lt;/p&gt;&#xA;&lt;p&gt;Project logo of various sizes, sample files to upload to test different behaviors, screen recordings of bugs, etc.&lt;/p&gt;&#xA;&lt;p&gt;But you still want to have them in your repo, since they are project-related.&lt;/p&gt;&#xA;&lt;p&gt;Modifying &lt;code&gt;.gitignore&lt;/code&gt; is an option. Since each person could have their own personal files in there, adding a line &lt;code&gt;local&lt;/code&gt; to &lt;code&gt;.gitignore&lt;/code&gt; to skip tracking the &lt;code&gt;local&lt;/code&gt; folder, is an idea. The only minor disadvantage is that people might think that the local folder is generated by the code, when it&amp;rsquo;s not.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Run Script After MySQL Docker Initialization</title>
       <link>https://mredigonda.github.io/blog/run-script-after-mysql-docker-initialization/</link>
       <pubDate>Tue, 31 May 2022 14:18:38 -0300</pubDate>
-      
       <guid>https://mredigonda.github.io/blog/run-script-after-mysql-docker-initialization/</guid>
-      <description>The Problem I wanted to setup automated tests for OpenSupports.
-I made them run after each commit with Github Actions, but they failed. Sometimes.
-Inside the Ubuntu given by Github Actions, I ran all steps inside Docker containers.
-The steps looked like this:
- steps: - uses: actions/checkout@v3 - run: make build - run: make run - run: make install - run: make test And all those make commands interact with Docker containers.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/25920622/188284203-886e03a4-6917-4a5c-bdb5-b023ce0c006e.png#center&#34; alt=&#34;01021-container&amp;ndash;extremely-detailed-cyberpunk-(-steampunk-)&amp;ndash;day-light&amp;ndash;realistic-shaded&#34;&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;the-problem&#34;&gt;The Problem&lt;/h2&gt;&#xA;&lt;p&gt;I wanted to setup automated tests for &lt;a href=&#34;https://github.com/opensupports/opensupports/&#34;&gt;OpenSupports&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;I made them run after each commit with Github Actions, but they failed. &lt;strong&gt;Sometimes&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Inside the Ubuntu given by Github Actions, I ran all steps inside Docker containers.&lt;/p&gt;&#xA;&lt;p&gt;The steps looked like this:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;    steps:&#xA;      - uses: actions/checkout@v3&#xA;      - run: make build&#xA;      - run: make run&#xA;      - run: make install&#xA;      - run: make test&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;And all those &lt;code&gt;make&lt;/code&gt; commands interact with Docker containers.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>When Reinventing the Wheel Makes Sense</title>
       <link>https://mredigonda.github.io/blog/when-reinventing-the-wheel-makes-sense/</link>
       <pubDate>Wed, 18 May 2022 10:42:17 -0300</pubDate>
-      
       <guid>https://mredigonda.github.io/blog/when-reinventing-the-wheel-makes-sense/</guid>
-      <description>I have a close friend of mine with whom I share (or shared) many projects and activities.
-One of those activities was mathematical olympiads.
-In those competitions, once you enter the room, you are left alone with what you already know, the problem statements, and what you can derive from those.
-He&amp;rsquo;s told me that in one of those competitions he was able to discover the quadratic equation, because he needed it to solve the problem.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/25920622/188283771-59e9560a-fa48-44cb-ad5a-9a930a37648a.png#center&#34; alt=&#34;01108-a-wheel&amp;ndash;extremely-detailed&amp;ndash;in-the-style-of-cyberpunk-(-steampunk-)&amp;ndash;day-light&amp;ndash;realistic-shaded&#34;&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;I have a close friend of mine with whom I share (or shared) many projects and activities.&lt;/p&gt;&#xA;&lt;p&gt;One of those activities was &lt;strong&gt;mathematical olympiads&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;In those competitions, once you enter the room, you are left alone with what you already know, the problem statements, and what you can derive from those.&lt;/p&gt;&#xA;&lt;p&gt;He&amp;rsquo;s told me that in one of those competitions he was able to discover the &lt;a href=&#34;https://en.wikipedia.org/wiki/Quadratic_equation&#34;&gt;quadratic equation&lt;/a&gt;, because he needed it to solve the problem. He didn&amp;rsquo;t know about it before that.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Proper Form in Competitive Programming</title>
       <link>https://mredigonda.github.io/blog/proper-form-in-competitive-programming/</link>
       <pubDate>Thu, 28 Oct 2021 08:28:00 -0300</pubDate>
-      
       <guid>https://mredigonda.github.io/blog/proper-form-in-competitive-programming/</guid>
-      <description>I recently started lifting weights and exercising more, I wish I would&amp;rsquo;ve done that while I was practicing for IOI / ICPC.
-My mind kept telling me that an hour in the gym was an hour I could&amp;rsquo;ve spent practicing for competitions, and while that was technically correct, that didn&amp;rsquo;t took into account all of the benefits from exercising, not only to my health but also directly to my performance in competitions.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/25920622/188284469-c5b4f85d-9b4f-4547-9ec2-e013d624884e.png#center&#34; alt=&#34;01142-a-gym-dumbbell&amp;ndash;extremely-detailed&amp;ndash;in-the-style-of-cyberpunk-(-steampunk-)&amp;ndash;day-light&amp;ndash;realistic-sh&#34;&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;I recently started lifting weights and exercising more, I wish I would&amp;rsquo;ve done that while I was practicing for &lt;a href=&#34;https://stats.ioinformatics.org/&#34;&gt;IOI&lt;/a&gt; / &lt;a href=&#34;https://icpc.global/&#34;&gt;ICPC&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;My mind kept telling me that an hour in the gym was an hour I could&amp;rsquo;ve spent practicing for competitions, and while that was technically correct, that didn&amp;rsquo;t took into account all of the benefits from exercising, not only to my health but also directly to my performance in competitions.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Will everything be faster when Moore&#39;s law is over?</title>
       <link>https://mredigonda.github.io/blog/will-everything-be-faster-when-moores-law-is-over/</link>
       <pubDate>Fri, 15 Oct 2021 08:49:40 -0300</pubDate>
-      
       <guid>https://mredigonda.github.io/blog/will-everything-be-faster-when-moores-law-is-over/</guid>
-      <description>Moore&amp;rsquo;s law is not really a law, it&amp;rsquo;s just the observation that the number of transistors in computers doubles every two years.
-The power of computers has been increasing exponentially for a long time, but we know that due to physical constraints, there&amp;rsquo;s a limit to how much it can grow, at least in the traditional way of adding more transistors*.
-Another law, the Parkinson&amp;rsquo;s law, is an adage that says: &amp;ldquo;work expands so as to fill the time available for its completion&amp;rdquo;.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/25920622/188283907-5c36807c-d019-4b94-8d8c-d72e988bdf93.png#center&#34; alt=&#34;01019-racing-car&amp;ndash;extremely-detailed-cyberpunk-(-steampunk-)&amp;ndash;day-light&amp;ndash;realistic-shaded&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://en.wikipedia.org/wiki/Moore&#39;s_law&#34;&gt;Moore&amp;rsquo;s law&lt;/a&gt; is not really a law, it&amp;rsquo;s just the observation that the number of transistors in computers doubles every two years.&lt;/p&gt;&#xA;&lt;p&gt;The power of computers has been increasing exponentially for a long time, but we know that due to physical constraints, there&amp;rsquo;s a limit to how much it can grow, at least in the traditional way of adding more transistors*.&lt;/p&gt;&#xA;&lt;p&gt;Another law, the &lt;a href=&#34;https://en.wikipedia.org/wiki/Parkinson%27s_law&#34;&gt;Parkinson&amp;rsquo;s law&lt;/a&gt;, is an adage that says: &amp;ldquo;work expands so as to fill the time available for its completion&amp;rdquo;. It turns out this law is applicable in many other situations too.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Ubuntu Tips</title>
       <link>https://mredigonda.github.io/blog/ubuntu-tips/</link>
       <pubDate>Tue, 22 Jun 2021 19:44:33 -0300</pubDate>
-      
       <guid>https://mredigonda.github.io/blog/ubuntu-tips/</guid>
-      <description>Disable animations, it makes the experience much much faster.
-Once you disable animations, using the apps grid (shortcut SUPER + A by default) is lighting fast, and works as an application launcher (it covers the most basic functionality of applications like ulauncher).
-Finally, try to set up a script to install your common programs, and also track every configuration change that you do. A git repo with a markdown file will do.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/25920622/188284353-84853ebb-5557-42d9-81c3-6fd9ecd39eed.png#center&#34; alt=&#34;01140-a-pair-of-glasses&amp;ndash;extremely-detailed&amp;ndash;in-the-style-of-cyberpunk-(-steampunk-)&amp;ndash;day-light&amp;ndash;realistic&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Disable animations&lt;/strong&gt;, it makes the experience much much faster.&lt;/p&gt;&#xA;&lt;p&gt;Once you disable animations, using the &lt;strong&gt;apps grid&lt;/strong&gt; (shortcut &lt;code&gt;SUPER + A&lt;/code&gt; by default) is lighting fast, and works as an application launcher (it covers the most basic functionality of applications like &lt;a href=&#34;https://ulauncher.io/&#34;&gt;ulauncher&lt;/a&gt;).&lt;/p&gt;&#xA;&lt;p&gt;Finally, try to &lt;strong&gt;set up a script to install your common programs&lt;/strong&gt;, and also track every configuration change that you do. A git repo with a markdown file will do.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>2-Minutes Rule</title>
       <link>https://mredigonda.github.io/blog/how-to-complete-the-many-tasks-in-your-backlog/</link>
       <pubDate>Sun, 23 May 2021 11:03:01 -0300</pubDate>
-      
       <guid>https://mredigonda.github.io/blog/how-to-complete-the-many-tasks-in-your-backlog/</guid>
-      <description>We add all tasks that we have to or wish to do to our favorite to do list app. After some time, there are too many of them, and many of them are not even written correctly, or even if they are, they don&amp;rsquo;t get any of our time.
-2-Minutes Rule The stuppidest thing I did that incredibly worked out outstandingly well was to force myself to spend 2 minutes on each task, sorted from top to bottom in priority (if any), no skipping at all, every day.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/25920622/188284098-db3732b0-2d03-4b36-8b4b-420763d506a6.png#center&#34; alt=&#34;01040-sandwatch&amp;ndash;extremely-detailed-cyberpunk-(-steampunk-)&amp;ndash;day-light&amp;ndash;realistic-shaded&#34;&gt;&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;p&gt;We add all tasks that we have to or wish to do to our favorite to do list app. After some time, there are too many of them, and many of them are not even written &lt;em&gt;correctly&lt;/em&gt;, or even if they are, they don&amp;rsquo;t get any of our time.&lt;/p&gt;&#xA;&lt;!-- raw HTML omitted --&gt;&#xA;&lt;h2 id=&#34;2-minutes-rule&#34;&gt;2-Minutes Rule&lt;/h2&gt;&#xA;&lt;p&gt;The stuppidest thing I did that incredibly worked out outstandingly well was to force myself to spend 2 minutes on each task, sorted from top to bottom in priority (if any), no skipping at all, every day.&lt;/p&gt;</description>
     </item>
-    
-    <item>
-      <title>Toolbelt</title>
-      <link>https://mredigonda.github.io/toolbelt/</link>
-      <pubDate>Sat, 29 Aug 2020 19:36:53 -0300</pubDate>
-      
-      <guid>https://mredigonda.github.io/toolbelt/</guid>
-      <description>This is my hardware and software setup, along with my review of the tools I&amp;rsquo;m currently using.
-Hardware Setup  Operating System: Ubuntu 20.04.4 LTS Processor: AMD® Ryzen 3 3200g with Radeon Vega graphics × 4 Motherboard: Gigabyte GA-A320M-S2H Ryzen 2nd Gen Ready M-ATX RAM Memory: x2 Memory ADATA DDR4 16GB 3000MHz XPG Gammix D30 Power Supply Unit: Sentey SDP650-FX 650W Solid Power 80 Plus Case: Aerocool Bolt Black Keyboard: HyperX Alloy FPS Pro Mechanical Gaming Keyboard Mouse: Logitech M90 Headphones: HyperX Cloud 2 Monitor: x2 LG 24&amp;quot; IPS VGA HDMI Full HD FreeSync 24MK430H-B Speakers: Genius SP-HF280  Software Setup  Time Management: Clockify (upd: no longer fits in my workflow) Knowledge Base: Visual Studio Code Code Editor: Visual Studio Code Tasks Management: TickTick (upd: payed for it and happy about it 🎉) Work Communications: Slack Spaced Repetition: Anki (upd: lost the habit, but eager to start it again 😪) Web Browser: Brave (upd: it broke some pages, so I had to shift to Chromium) Money Management: RealByte&amp;rsquo;s MoneyManager (upd: using adhoc Google Sheets now)  My Software Review Time Management - Clockify Clockify is an awesome piece of software.</description>
-    </item>
-    
     <item>
       <title>Brazilian ICPC Summer School 2018</title>
       <link>https://mredigonda.github.io/blog/brazilian-icpc-summer-school/</link>
       <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://mredigonda.github.io/blog/brazilian-icpc-summer-school/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/25920622/188284803-e112e5ab-647e-4368-99d7-8011422417e0.png#center&#34; alt=&#34;01159-a-sun&amp;amp;ndash;extremely-detailed&amp;amp;ndash;in-the-style-of-cyberpunk-(-steampunk-)&amp;amp;ndash;day-light&amp;amp;ndash;realistic-shaded&#34;&gt;&lt;/p&gt;
-&lt;p&gt;This is a two weeks long event, with theoretic lectures from outstanding instructors in the mornings, and competitive programming contests in the afternoons. It was held from January 22nd to February 3rd in the city of Campinas, São Paulo.&lt;/p&gt;</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/25920622/188284803-e112e5ab-647e-4368-99d7-8011422417e0.png#center&#34; alt=&#34;01159-a-sun&amp;ndash;extremely-detailed&amp;ndash;in-the-style-of-cyberpunk-(-steampunk-)&amp;ndash;day-light&amp;ndash;realistic-shaded&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;This is a two weeks long event, with theoretic lectures from outstanding instructors in the mornings, and competitive programming contests in the afternoons. It was held from January 22nd to February 3rd in the city of Campinas, São Paulo.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Cell Game</title>
       <link>https://mredigonda.github.io/cell-game/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://mredigonda.github.io/cell-game/</guid>
-      <description>Are you my developer? If yes, well, all the content for this page is in the corresponding layout. I know I know, I must learn how it works, but Hugo sometimes is not so trivial to get right.</description>
+      <description>&lt;p&gt;Are you my developer? If yes, well, all the content for this page is in the corresponding layout. I know I know, I must learn how it works, but Hugo sometimes is not so trivial to get right.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Turing Machine</title>
       <link>https://mredigonda.github.io/turing-machine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://mredigonda.github.io/turing-machine/</guid>
-      <description>Are you my developer? If yes, well, all the content for this page is in the corresponding layout. I know I know, I must learn how it works, but Hugo sometimes is not so trivial to get right.</description>
+      <description>&lt;p&gt;Are you my developer? If yes, well, all the content for this page is in the corresponding layout. I know I know, I must learn how it works, but Hugo sometimes is not so trivial to get right.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
