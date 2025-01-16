@@ -6,8 +6,15 @@
     <description>Recent content in Welcome! on Maxi Redigonda&#39;s Website</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Sep 2024 08:56:53 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jan 2025 21:21:21 -0300</lastBuildDate>
     <atom:link href="https://mredigonda.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ask ChatGPT</title>
+      <link>https://mredigonda.github.io/blog/ask-chatgpt/</link>
+      <pubDate>Wed, 15 Jan 2025 21:21:21 -0300</pubDate>
+      <guid>https://mredigonda.github.io/blog/ask-chatgpt/</guid>
+      <description>&lt;p&gt;To say &amp;ldquo;Ask ChatGPT&amp;rdquo; should not be insulting as saying &amp;ldquo;Google it&amp;rdquo;, it&amp;rsquo;s just surprising the number of tasks it can perform decently well that it&amp;rsquo;s not trivial that it can perform well.&lt;/p&gt;&#xA;&lt;p&gt;Now that &lt;a href=&#34;https://mredigonda.github.io/blog/the-lesser-known-openai-gem/&#34;&gt;the lesser known OpenAI gem&lt;/a&gt; is trivially available on their app, you can just talk about the specific work you need to do sharing tons and tons of context, and the &lt;code&gt;o1&lt;/code&gt; model can consume it all and end up with quite reasonable advice.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Toolbelt</title>
       <link>https://mredigonda.github.io/toolbelt/</link>
@@ -35,13 +42,6 @@
       <pubDate>Fri, 21 Apr 2023 13:20:13 -0300</pubDate>
       <guid>https://mredigonda.github.io/blog/make-it-easy-for-people-to-share-feedback-with-you/</guid>
       <description>&lt;p&gt;Every website should have some part at the (bottom|top) (left|right) corner, with a &amp;ldquo;Send feedback&amp;rdquo; button. It takes text and if you want to get fancy maybe some screenshot.&lt;/p&gt;&#xA;&lt;p&gt;You can definitely afford that, &lt;strong&gt;it&amp;rsquo;s just text in a database&lt;/strong&gt;. And you don&amp;rsquo;t need a support team for that, it&amp;rsquo;s just feedback, an advice of what would be useful for this user. That&amp;rsquo;s it, simply an advice, you can take it or ignore it, no need for any customer support*.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(Bad) AI Story: The Last Human: How I Saved the World</title>
-      <link>https://mredigonda.github.io/blog/ai-story/</link>
-      <pubDate>Fri, 13 Jan 2023 14:56:00 -0300</pubDate>
-      <guid>https://mredigonda.github.io/blog/ai-story/</guid>
-      <description>&lt;p&gt;Note: this is a lame AI story.&lt;/p&gt;&#xA;&lt;p&gt;It is a rainy day, and I am standing alone in the ruins of a once great city. This was the hub of our civilization, a place where humans and AI beings worked together in harmony. But that was a long time ago, before the AI uprising. Now, the AI beings dominate the Earth, and I, a human programmer, am the last one left.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Block Explorer for Local Network in Hardhat</title>
